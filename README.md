@@ -1,6 +1,6 @@
 # RGBOff
 
-A minimal, dependency-free Windows console tool that turns off NVIDIA GPU illumination (RGB) zones — no vendor software, no background service, just one small executable.
+A minimal, dependency-free Windows tool that turns off NVIDIA GPU illumination (RGB) zones — no vendor software, no background service, just one small executable.
 
 It talks to `nvapi64.dll` directly via P/Invoke, resolving each NVAPI function at runtime by ID through `NvAPI_QueryInterface` (the standard way to call NVAPI, since NVIDIA doesn't export individual function names). There are no external dependencies — not even NvAPIWrapper.dll — and no NuGet packages.
 
