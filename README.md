@@ -45,7 +45,7 @@ Credit and thanks to Soroush Falahati and the NvAPIWrapper project for documenti
 
 ## Building
 
-Single-file C# console app targeting .NET Framework / .NET with P/Invoke — compile `RGBOff.cs` with `csc` or any standard C# toolchain. No project file or package references are required.
+Use the "RGBOff Build.bat to build the EXE with the compiler built into Windows.
 
 ## License
 
